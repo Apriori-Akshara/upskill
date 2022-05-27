@@ -6,7 +6,6 @@
 .logohw{
     height: 60px;
     width: 60px;
-   
 }
 .logos{
     /* border-color:#F3F3F3 !important; */
@@ -27,6 +26,7 @@ background-color: black !important;
 .fix{
     color:#F3F3F3 !important;
     background-color:  #0152a8 !important;
+    font-weight: bold !important;
   
 }
 .fix:active,.fix:hover{
@@ -42,9 +42,10 @@ background-color:#067cfa !important;
     background-color: #0152a8 !important;
     color: #F3F3F3 !important;
     font-size: larger !important;
-    width: 200px !important;
-    height: 70px !important;
+    width: 250px !important;
+    height: 60px !important;
     cursor: pointer !important;
+    font-weight: bolder;
 }
 .btnStyle:hover{
     background-color:  #067cfa !important ;
@@ -53,7 +54,7 @@ background-color:#067cfa !important;
     background-color:lightblue;
     color: #0152a8;
     padding: 0px 15px !important;
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
 }
 .linkDe a{
     text-decoration: none ;
@@ -69,6 +70,7 @@ background-color:#067cfa !important;
     text-decoration: none;
     font-size: medium;
     font-weight: 900;
+   
 }
 
 .a2de{
@@ -78,6 +80,7 @@ background-color:#067cfa !important;
 text-decoration: none;
 font-weight: 900;
 display: inline !important;
+color: black;
 }
 .bradius{
     border-radius:15px !important;
@@ -87,9 +90,10 @@ display: inline !important;
     /* height: 297px !important;  */
     
 }
-.hoverEffect:hover .link3 a{
+.hoverEffect:hover .link3 .short a{
 display: inline !important;
  color:#0152a8;
+ border-bottom: 4px solid blue;
    
   
 }
@@ -151,17 +155,26 @@ margin-left: 70px;
 .iA{
     height:43px;
     overflow: hidden;
+    display: inline-block;
    
 }
 #moves{
     height:100% ;
     animation:mymove 2s ease-in-out infinite alternate;
+    display: block;
 }
 .skill{
     height:43px ;
     font-size: xx-large ;
     font-weight: bold ;
-    color:#0152a8;
+    width: 300px;
+    color: #0152a8;
+    
+    }
+    .test{
+        background-color:lightblue;
+       
+    margin-top: 5px;
     }
 @keyframes mymove {
     25%{
@@ -210,4 +223,11 @@ margin-left: 70px;
         text-align: center !important;
         margin-top: 5px !important;
     }
+}
+#sides{
+    display: flex;
+}
+.short{
+    display: inline-block !important;
+
 }

@@ -45,10 +45,11 @@ hires.map((item,index)=>(
         </p>
     </div>
     <div class="row text-start mt-2 link3">
-        <a href="#">
+       <span class="short">
+       <a href="#">
           ${item.links}
         </a>
-    
+       </span> 
     </div>
 </div>
       `

@@ -11,7 +11,7 @@ const lifes=[
         number:"14,863",
         title1:"graduates",
         title2:"Apriori is a strong community of developers, designers, entrepreneurs and tech talent, creating unique opportunities for our alumni worldwide.",
-        links:"Meet our garduate",
+        links:"Meet our garduates",
     },
     {
         id:"3",
