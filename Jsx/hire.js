@@ -26,7 +26,7 @@ const hires=[
 const dataB=document.getElementById("two");
 hires.map((item,index)=>(
     dataB.innerHTML += `
-    <div class="col-md-4 hoverEffect ">
+    <div class="col-md-4 hoverEffect at767mt">
     <div class="row ">
         <img src=${item.src} alt="story-1" class="img-fluid  bradius">
     </div>

@@ -33,17 +33,17 @@ const data=document.getElementById("one");
 lifes.map((item,index)=>(
     data.innerHTML += `
     <div class="col-md-5 mt-4">
-                <div class="row">
+                <div class="row at767cen">
                  <h1
                  style="font-weight: bold;color:#0152a8 ;"
                  >${item.number}</h1>
                 </div>
-                <div class="row">
+                <div class="row at767cen">
             <p
             style="font-size:larger ;"
             ><b> ${item.title1}</b></p>
                 </div>
-                <div class="row">
+                <div class="row at767cen">
                     <p
                     style="font-size:large ;opacity: 0.9;"
                     >
@@ -51,8 +51,8 @@ lifes.map((item,index)=>(
 
                           </p>
                 </div>
-                <div class="row text-start a2de">
-                  <a href="#">${item.links}</a>
+                <div class="row text-start a2de  at767de">
+                  <a href="#" class="at767cenLink">${item.links}</a>
                 </div>
             </div>
       `
