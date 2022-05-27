@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logohw{
+    height: 60px;
+    width: 60px;
+   
+}
+
+.colwhite ul li a{
+    color:black;
+    font-weight: 300 !important;
+    font-size: larger;
+    padding: 10px 0px;
+    margin: 0 5px;
+}
+
+.fix{
+    color:#F3F3F3 !important;
+    background-color:  #0152a8 !important;
+  
+}
+.fix:active,.fix:hover{
+background-color:#067cfa !important;
+}
+   
+.colwhite ul li a:hover:not(.fix){
+    color:#F3F3F3;
+    background-color:  #067cfa ;
+   /* border-bottom: 3px solid #000000; */
+}
+.btnStyle{
+    background-color: #0152a8 !important;
+    color: #F3F3F3 !important;
+    font-size: larger !important;
+    width: 200px !important;
+    height: 70px !important;
+    cursor: pointer !important;
+}
+.btnStyle:hover{
+    background-color:  #067cfa !important ;
+}
+#design{
+    background-color:lightblue;
+    color: #0152a8;
+    padding: 0px 15px !important;
+    font-size: 3rem !important;
+}
+.linkDe a{
+    text-decoration: none ;
+    font-size: medium;
+}
+.cardHW{
+    height: 370px !important;
+    border: none !important;
+    outline: none !important;
+  border-radius: 10px !important;
+}
+.a2de a ,.ndlink a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 900;
+}
+.link3 a{
+text-decoration: none;
+font-weight: 900;
+display: inline !important;
+}
+.bradius{
+    border-radius:15px !important;
+    transition: width 4s, height 6s;
+     /* width: 400px !important; */
+    /* height: 297px !important;  */
+    
+}
+.hoverEffect:hover .link3 a{
+display: inline !important;
+ color:#0152a8;
+   
+  
+}
+@media(max-width:575px) {
+    #design{
+        background-color:lightblue;
+        color: #0152a8;
+        padding: 0px 15px !important;
+        font-size: 2rem !important;
+    }
+}
+.backColo{
+    background-color:#3d556d;
+    height:700px;
+    width:100%;
+}
+.btnStyles{
+    background-color: #0152a8 !important;
+    color: #F3F3F3 !important;
+    font-size: larger !important;
+    width: 200px !important;
+    height: 60px !important;
+    margin-left:-23px !important;
+    border-radius: 0px !important;
+    cursor: pointer;
+}
+.inputDesign{
+    height: 60px !important;
+    font-size: large !important;
+    font-weight: 400 !important;
+    border-radius: 0px !important;
+}
+.btnStyles:hover{
+    background-color: #067cfa !important;
+}
+.navlast ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navlast li{
+float: left;
+margin-left: 70px;
+}
+.navlast ul li a{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+/* .y{
+    z-index: 999 !important;
+    position: fixed !important;
+    top:0 !important;
+    width: 100% !important;
+} */
