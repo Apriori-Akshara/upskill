@@ -51,7 +51,7 @@ lifes.map((item,index)=>(
 
                           </p>
                 </div>
-                <div class="row text-start a2de  at767de">
+                <div class="row  a2de  at767de">
                   <a href="#" class="at767cenLink">${item.links}</a>
                 </div>
             </div>

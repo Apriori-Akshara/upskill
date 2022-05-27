@@ -70,6 +70,10 @@ background-color:#067cfa !important;
     font-size: medium;
     font-weight: 900;
 }
+
+.a2de{
+    text-align: start;
+}
 .link3 a{
 text-decoration: none;
 font-weight: 900;
@@ -196,6 +200,9 @@ margin-left: 70px;
     }
     .at767mt{
         margin-top: 20px !important;
+    }
+    .a2de{
+        text-align: center !important;
     }
 }
 @media (max-width:525px) {
