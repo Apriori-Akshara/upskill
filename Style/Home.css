@@ -8,6 +8,13 @@
     width: 60px;
    
 }
+.logos{
+    /* border-color:#F3F3F3 !important; */
+    color:#F3F3F3 !important;
+
+}.visible{
+background-color: black !important;
+}
 
 .colwhite ul li a{
     color:black;
