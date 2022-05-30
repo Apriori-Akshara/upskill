@@ -32,14 +32,14 @@ hires.map((item,index)=>(
     </div>
     <div class="row text-start mt-2">
         <h5
-        style="font-weight: 900;"
+        style="font-weight: 600;color:"black"
         >
            ${item.title1}
         </h5>
     </div>
     <div class="row text-start mt-2">
         <p
-        style="font-size: larger;opacity: 0.9;"
+        style="font-size: medium;opacity: 0.9;"
         >
         ${item.title2}
         </p>

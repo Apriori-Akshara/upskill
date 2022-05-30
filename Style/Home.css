@@ -51,7 +51,8 @@ background-color:#067cfa !important;
     background-color:  #067cfa !important ;
 }
 #design{
-    background-color:lightblue;
+    background-color:#e6faff;
+    font-weight: 700;
     color: #0152a8;
     padding: 0px 15px !important;
     font-size: 2.5rem !important;
@@ -84,19 +85,28 @@ color: black;
 }
 .bradius{
     border-radius:15px !important;
-    transition: width 4s, height 6s;
-    height: 300px !important;
+    transition: width 1s, height 2s;
+    height: 250px !important;
+    width:350px !important;
+    margin:0px auto !important;
      /* width: 400px !important; */
     /* height: 297px !important;  */
     
 }
+
+
+
 .hoverEffect:hover .link3 .short a{
 display: inline !important;
  color:#0152a8;
- border-bottom: 4px solid blue;
-   
-  
+ border-bottom: 3px solid #0152a8;
 }
+
+.hoverEffect:hover .row .bradius{
+   /* height: 310px !important; */
+   width: 420px !important;
+    }
+
 @media(max-width:575px) {
     #design{
         background-color:lightblue;
@@ -114,11 +124,25 @@ display: inline !important;
     background-color: #0152a8 !important;
     color: #F3F3F3 !important;
     font-size: larger !important;
+    width: 350px !important;
+    height: 65px !important;
+    margin-left:-23px !important;
+    border-radius: 0px !important;
+    cursor: pointer;
+}
+.btnStyles-a{
+    background-color: #0152a8 !important;
+    color: #F3F3F3 !important;
+    font-size: larger !important;
     width: 200px !important;
     height: 60px !important;
     margin-left:-23px !important;
     border-radius: 0px !important;
     cursor: pointer;
+}
+.yolk{
+    width: 350px !important;
+    height: 65px !important;
 }
 .inputDesign{
     height: 60px !important;
@@ -173,8 +197,8 @@ margin-left: 70px;
     
     }
     .test{
-        background-color:lightblue;
-       
+        background-color:#e6faff;
+       font-weight: 800;
     margin-top: 5px;
     }
 @keyframes mymove {
@@ -231,4 +255,39 @@ margin-left: 70px;
 .short{
     display: inline-block !important;
 
+}
+.lifeHW{
+    height:610px !important;
+    width:500px !important;
+}
+.sirHW{
+    height:300px !important;
+    border-radius: 20px !important;
+}
+.dones{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+} 
+
+#wait{
+    display: none;
+}
+@media (max-width:767px) {
+    #wait{
+        display:block !important;
+    }
+    #waitEnd{
+        display: none !important;
+    }
+}
+@media (max-width:991px) {
+    .lifeHW{
+        height:400px !important;
+        width:500px !important;
+        margin: 0 auto !important;
+    }
+    .at991mt{
+        align-items: center !important;
+    }
 }

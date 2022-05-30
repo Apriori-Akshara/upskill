@@ -35,17 +35,17 @@ lifes.map((item,index)=>(
     <div class="col-md-5 mt-4">
                 <div class="row at767cen">
                  <h1
-                 style="font-weight: bold;color:#0152a8 ;"
+                 style="font-weight:bolder;color:#0152a8 ; font-size:xx-larger;"
                  >${item.number}</h1>
                 </div>
                 <div class="row at767cen">
             <p
-            style="font-size:larger ;"
-            ><b> ${item.title1}</b></p>
+            style="font-size:larger ;font-weight:500;"
+            > ${item.title1}</p>
                 </div>
                 <div class="row at767cen">
                     <p
-                    style="font-size:large ;opacity: 0.9;"
+                    style="font-size:medium ;opacity: 0.9;"
                     >
                     ${item.title2}
 
