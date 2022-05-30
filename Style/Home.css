@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .logohw{
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
 }
 .logos{
     /* border-color:#F3F3F3 !important; */
@@ -171,10 +171,7 @@ margin-left: 70px;
     font-size: larger;
 }
 /* .y{
-    z-index: 999 !important;
-    position: fixed !important;
-    top:0 !important;
-    width: 100% !important;
+   background-color: purple;
 } */
 
 .iA{
