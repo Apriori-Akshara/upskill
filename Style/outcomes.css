@@ -1,0 +1,25 @@
+.childs{
+    font-weight: 500 !important;
+    font-size:large;
+}
+.boxHW{
+    border: 2px solid orangered;
+    border-radius: 5px;
+    height:300px;
+    width: 280px;
+    margin: auto;
+}
+
+.positinSet{
+    position: relative;
+    bottom: 350px;
+    height: 100px;
+    width: 100px;
+    background-color: #0152a8;
+    margin: auto;
+
+  
+}
+.profileHW{
+    height: 100% !important;
+}
