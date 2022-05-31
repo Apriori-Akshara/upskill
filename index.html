@@ -59,22 +59,37 @@
             <div class="row" id="sides"
             
             >
-                <h1 
+
+            <div class="wrappers">
+                <div class="fixed-txt">
+                    <h1 
                 style="line-height:4.3rem;
                 font-weight: bold;
                 font-size:52px;
                 "
                 >
-                    Change your life, <br/> learn to
-               
-                    <span class='iA '>
-                        <span id="moves">  
-                    <div class='row skill ' ><h1 class="test">Learn Python</h1></div>
-                    <div class='row skill mt-2'  ><h2 class="test ">Learn Html</h2></div>
-                    <div class='row skill '  ><h3 class="test">Learn French</h3></div>
-                    </span>
-                    </span>
-                </h1>
+                Change your life,
+            </h1>
+            <h1 class="ends"
+            style="line-height:4.3rem;
+            font-weight: bold;
+            font-size:52px;
+            display: inline-block;
+            "
+            >
+          learn to
+        </h1>
+        <ul class="moving-text"
+        style="display: inline-block;"
+        >
+            <li><span>Learn Python</span></li>
+            <li><span>Learn HTML</span></li>
+            <li><span>Learn French</span></li>
+        </ul>
+                </div>
+              
+            </div>
+             
                
                 
             </div>
@@ -116,7 +131,8 @@
 
 <div class="container mt-5">
     <div class="row text-start">
-        <h1
+
+        <!-- <h1
         style="line-height:4.3rem;
                 font-weight: bold;
                 font-size:52px;"
@@ -130,7 +146,31 @@
         </div>
         </div>
 
-        </h1>
+        </h1> -->
+
+        <div class="wrappers">
+            <div class="fixed-txt">
+            
+        <h1 class="ends"
+        style="line-height:4.3rem;
+        font-weight: bold;
+        font-size:52px;
+        display: inline-block;
+        "
+        >
+        Discover our
+    </h1>
+    <ul class="moving-text"
+    style="display: inline-block;"
+    >
+        <li><span>Bootcamp</span></li>
+        <li><span>Workspace</span></li>
+        <li><span>Courses</span></li>
+    </ul>
+            </div>
+          
+        </div>
+
     </div>
     <div class="row justify-content-around mt-3">
         
@@ -247,7 +287,8 @@
 style="margin-top: 100px;"
 >
     <div class="row text-start">
-        <h1
+
+        <!-- <h1
         style="line-height:4.3rem;
         font-weight: bold;
         font-size:52px;"
@@ -260,9 +301,43 @@ style="margin-top: 100px;"
         <div class='row skill '  ><h2 class="test">Educational</h2></div>
         </div>
         </div>
-        <!-- <br/> -->
+
         experience
-        </h1>
+        </h1> -->
+        <div class="wrappers">
+            <div class="fixed-txt">
+            
+        <h1 class="ends"
+        style="line-height:4.3rem;
+        font-weight: bold;
+        font-size:52px;
+        display: inline-block;
+        "
+        >
+       A
+    </h1>
+    <ul class="moving-text"
+    style="display: inline-block;"
+    >
+        <li><span>Bootcamp</span></li>
+        <li><span>Workspace</span></li>
+        <li><span>Courses</span></li>
+    </ul>
+    <h1 class="ends"
+    style="line-height:4.3rem;
+    font-weight: bold;
+    font-size:52px;
+    display: inline-block;
+    "
+    >
+    experience
+</h1>
+            </div>
+          
+        </div>
+
+        
+        
     </div>
     <div class="row text-start mt-3">
         <p
@@ -278,6 +353,8 @@ style="margin-top: 100px;"
         <div class="col-lg-6">
             <div class="row justify-content-around" id="one">
 
+
+              
 
            <!-- get data from life.js -->
 
@@ -649,8 +726,24 @@ style="color:white;font-weight: 500;"
 
 
 
+
 <script src="./Jsx/life.js"></script>
 <script src="./Jsx/hire.js"></script>
 <script src="./Jsx/apriori.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+    jQuery(document).ready(function( $ ) {
+        $('.pet').counterUp({
+            delay: 10,
+            time: 3000
+        });
+    });
+  </script>
+
+
 </body>
 </html>
