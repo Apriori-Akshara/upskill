@@ -8,6 +8,10 @@
     height:300px;
     width: 280px;
     margin: auto;
+    transition: width 2s;
+}
+.boxHW:hover{
+    width: 300px;
 }
 
 .positinSet{
