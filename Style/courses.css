@@ -1,0 +1,48 @@
+.coursesbtnHW{
+width:150px !important;
+border: none !important;
+outline: none !important;
+cursor: pointer !important;
+
+background-color: white !important;
+}
+.ty{
+    width:400px !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer !important;
+    margin-left: -66px !important;
+    background-color: white !important; 
+}
+.shift{
+    margin-left: -5px !important;
+}
+#tired{
+    display: none;
+}
+#tired1{
+    display: none;
+}
+#tired2{
+    display: none;
+}
+#tired3{
+    display: none;
+}
+#tired4{
+    display: none;
+}
+.arrowHW{
+    height: 20px !important;
+    width: 20px !important;
+    display: inline-block !important;
+}
+.arrowHWD{
+    height: 20px !important;
+    width: 20px !important;
+    display: inline-block !important;
+}
+
+.fy{
+    display: inline-block !important;
+}
