@@ -46,7 +46,7 @@ const outcome=[
 const dataX=document.getElementById("ones");
 outcome.map((item,index)=>(
     dataX.innerHTML += `
-    <div class="col-lg-4 col-md-5  parentPosition">
+    <div class="col-lg-4 col-md-5  parentPosition ">
     <div class="boxHW px-1"> 
    
        <div class="row text-center mt-5">
@@ -54,7 +54,7 @@ outcome.map((item,index)=>(
                <b>${item.title1}</b>
            </p>
        </div>
-       <div class="row text-center">
+       <div class="row text-center px-4">
            <p>
            ${item.title2}
        
