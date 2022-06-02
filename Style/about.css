@@ -1,0 +1,20 @@
+.pxt{
+    width: 400px !important;
+    margin: auto !important;
+}
+.right{
+    margin-left:180px !important ;
+}
+.mrTake{
+    margin-top: 130px !important;
+}
+.imgaboutHW{
+    height: 550px !important;
+    width: 500px !important;
+    margin:0 auto !important;
+}
+@media (max-width:991px) {
+    .imgaboutHW{
+        height: 400px !important;
+    }
+}
