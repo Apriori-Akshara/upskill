@@ -3,8 +3,8 @@ width:150px !important;
 border: none !important;
 outline: none !important;
 cursor: pointer !important;
-
-background-color: white !important;
+background-color: white !important; 
+/* background-color: white !important; */
 }
 .ty{
     width:400px !important;

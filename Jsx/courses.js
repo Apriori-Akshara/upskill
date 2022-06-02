@@ -94,7 +94,88 @@ function checkP4(){
     document.getElementById('tired4').style.display=="block"
 }
 
+var vals= false;
 
+function changeCol(){
+    if(!vals){
+        vals=true;
+        document.getElementById('docheck').style.backgroundColor="white";
+        document.getElementById('era').style.backgroundColor=" #e6faff";
+        document.getElementById('era').style.color='#0152a8';
+    }else{
+        vals=false;
+        document.getElementById('era').style.backgroundColor="white";
+        document.getElementById('era').style.color='black';
+        document.getElementById('docheck').style.backgroundColor="white";
+}
+     
+}
+
+
+
+function changeCol1(){
+    if(!vals){
+        vals=true;
+        document.getElementById('docheck').style.backgroundColor="white";
+        document.getElementById('era1').style.backgroundColor=" #e6faff";
+        document.getElementById('era1').style.color='#0152a8';
+    }else{
+        vals=false;
+        document.getElementById('era1').style.backgroundColor="white";
+        document.getElementById('era1').style.color='black';
+        document.getElementById('docheck').style.backgroundColor="white";
+}
+     
+}
+
+
+function changeCol2(){
+    if(!vals){
+        vals=true;
+        document.getElementById('docheck').style.backgroundColor="white";
+        document.getElementById('era2').style.backgroundColor=" #e6faff";
+        document.getElementById('era').style.color='#0152a8';
+    }else{
+        vals=false;
+        document.getElementById('era2').style.backgroundColor="white";
+        document.getElementById('era2').style.color='black';
+        document.getElementById('docheck').style.backgroundColor="white";
+}
+     
+}
+
+
+function changeCol3(){
+    if(!vals){
+        vals=true;
+        document.getElementById('docheck').style.backgroundColor="white";
+        document.getElementById('era3').style.backgroundColor=" #e6faff";
+        document.getElementById('era3').style.color='#0152a8';
+    }else{
+        vals=false;
+        document.getElementById('era3').style.backgroundColor="white";
+        document.getElementById('era3').style.color='black';
+        document.getElementById('docheck').style.backgroundColor="white";
+}
+     
+}
+
+
+
+function changeCol4(){
+    if(!vals){
+        vals=true;
+        document.getElementById('docheck').style.backgroundColor="white";
+        document.getElementById('era4').style.backgroundColor=" #e6faff";
+        document.getElementById('era4').style.color='#0152a8';
+    }else{
+        vals=false;
+        document.getElementById('era4').style.backgroundColor="white";
+        document.getElementById('era4').style.color='black';
+        document.getElementById('docheck').style.backgroundColor="white";
+}
+     
+}
 // const dataY=document.getElementById("sold");
 // courses.map((item,index)=>(
 //     dataY.innerHTML += `
