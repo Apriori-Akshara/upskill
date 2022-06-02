@@ -83,7 +83,7 @@
 
     <div class="container mt-5">
         <div class="row text-center">
-            <h3
+            <h3 
             style="display:inline-block ; font-weight: 700;"
             >
             COURSE REGISTRATION
@@ -97,25 +97,59 @@
 
 
     <div class="row justify-content-start">
-<div class="col-md-5 mb-3 text-start">
-    <input  style="color:grey ;border:3px solid grey; font-weight: 500;" type="text" class="form-control" id="exampleInputFirstNmae" aria-describedby="FirstNameHelp" placeholder="First Name">
+
+<div class="col-md-6">
+    <div class="row">
+        <div class="col-10 mb-3 text-start">
+            <input  style="color:grey ;border:3px solid grey; font-weight: 500;" type="text" class="form-control" id="firstdata" aria-describedby="FirstNameHelp" placeholder="First Name">
+        </div>
+        
+        <div class="col">
+            <span class="start">*</span>
+        </div>
+        
+    </div>
+   
 </div>
-<div class="col-md-5 mb-3">
-    <input   style="color:grey ;border:3px solid grey; font-weight: 500;" type="text" class="form-control" id="exampleInputLatName" aria-describedby="LastHelp" placeholder="Last Name">
+
+
+<div class="col-md-6">
+    <div class="row">
+        <div class="col-10 mb-3">
+            <input   style="color:grey ;border:3px solid grey; font-weight: 500;" type="text" class="form-control" id="lastdata" aria-describedby="LastHelp" placeholder="Last Name">
+        </div>
+        
+        <div class="col">
+            <span class="start">*</span>
+        </div>
+    </div>
 </div>
+
+
+
     </div>
 
 <div class="row mt-3">
-    <div class="col-md-5">
+    <div class="col-md-6">
 
         <div class="row text-start">
-            <div class="mb-3 text-start">
-                <input   style="color:grey ;border:3px solid grey; font-weight: 500;" type="text" class="form-control" id="exampleInputPhone" aria-describedby="Phone" placeholder="Phone Number">
+            <div class="mb-3 text-start col-10">
+                <input   style="color:grey ;border:3px solid grey; font-weight: 500;" type="text" class="form-control" id="phonedata" aria-describedby="Phone" placeholder="Phone Number">
+            </div>
+            <div class="col">
+                <span class="start">*</span>
             </div>
                 </div>
-                <div class="row text-start mt-3">
-                    <div class="mb-3 text-start">
-                        <input   style="color:grey ;border:3px solid grey; font-weight: 500;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email" placeholder="Email Id">
+
+                <div class="row text-start mt-3 ty">
+                    <div class="mb-3 text-start col-10">
+                      
+                        <input  style="color:grey ;border:3px solid grey; font-weight: 500;" type="email" class="form-control " id="emaildata" aria-describedby="email"  placeholder="Email Id">
+                        
+                    </div>
+
+                    <div class="col">
+                        <span class="start">*</span>
                     </div>
                 </div>
                 
@@ -123,23 +157,29 @@
 </div>
 
 <div class="row justify-content-around mt-3">
-    <div class="col-md-5">
+    <div class="col-md-6">
         <div class="row text-start">
-            <div class="mb-3 text-start">
+            <div class="mb-3 text-start col-10">
                 <select class="form-select" aria-label="Default select example"
+                id="optiondata" 
                 style="color:grey ;border:3px solid grey; font-weight: 500;"
                 >
                     <option selected>Course Choice</option>
-                    <option value="1">Python</option>
-                    <option value="2">Web Devleopment</option>
-                    <option value="3">German</option>
+                    <option value="Python">Python</option>
+                    <option value="Web Devleopment">Web Devleopment</option>
+                    <option value="German">German</option>
                   </select>
+
+            </div>
+            <div class="col">
+                <span class="start">*</span>
             </div>
         </div>
         <div class="row text-center">
             <div class="mb-3 text-center">
-                <button type="submit" class="btn" id="applyHover"
+                <button  class="btn" id="applyHover"
                 style="font-weight:bolder; color: white;background-color: #0152a8;"
+               onclick="getResults1()"
                 >
                     Submit
                 </button>
@@ -231,6 +271,6 @@
         </div>
     </div>
     </div>
-
+<script src="./Jsx/apply.js"></script>
 </body>
 </html>
