@@ -99,80 +99,86 @@ var vals= false;
 function changeCol(){
     if(!vals){
         vals=true;
-        document.getElementById('docheck').style.backgroundColor="white";
+        document.querySelector('.justCompZ').style.backgroundColor="white";
         document.getElementById('era').style.backgroundColor=" #e6faff";
         document.getElementById('era').style.color='#0152a8';
     }else{
         vals=false;
         document.getElementById('era').style.backgroundColor="white";
         document.getElementById('era').style.color='black';
-        document.getElementById('docheck').style.backgroundColor="white";
+        document.querySelector('.justCompZ').style.backgroundColor="white";
 }
      
 }
 
 
-
+var vals1= false;
 function changeCol1(){
-    if(!vals){
-        vals=true;
-        document.getElementById('docheck').style.backgroundColor="white";
+    if(!vals1){
+        vals1=true;
+        document.querySelector('.justComp0').style.backgroundColor="white";
         document.getElementById('era1').style.backgroundColor=" #e6faff";
         document.getElementById('era1').style.color='#0152a8';
     }else{
-        vals=false;
+        vals1=false;
         document.getElementById('era1').style.backgroundColor="white";
         document.getElementById('era1').style.color='black';
-        document.getElementById('docheck').style.backgroundColor="white";
+        document.querySelector('.justComp0').style.backgroundColor="white";
 }
      
 }
 
-
+var vals2= false;
 function changeCol2(){
-    if(!vals){
-        vals=true;
-        document.getElementById('docheck').style.backgroundColor="white";
+    if(!vals2){
+        vals2=true;
+        document.querySelector('.justComp').style.backgroundColor="white";
+
         document.getElementById('era2').style.backgroundColor=" #e6faff";
-        document.getElementById('era').style.color='#0152a8';
+        document.getElementById('era2').style.color='#0152a8';
     }else{
-        vals=false;
+        vals2=false;
         document.getElementById('era2').style.backgroundColor="white";
         document.getElementById('era2').style.color='black';
-        document.getElementById('docheck').style.backgroundColor="white";
+        document.querySelector('.justComp').style.backgroundColor="white";
+
 }
      
 }
 
-
+var vals3= false;
 function changeCol3(){
-    if(!vals){
-        vals=true;
-        document.getElementById('docheck').style.backgroundColor="white";
+    if(!vals3){
+        vals3=true;
+        document.querySelector('.justComp1').style.backgroundColor="white";
+
         document.getElementById('era3').style.backgroundColor=" #e6faff";
         document.getElementById('era3').style.color='#0152a8';
     }else{
-        vals=false;
+        vals3=false;
         document.getElementById('era3').style.backgroundColor="white";
         document.getElementById('era3').style.color='black';
-        document.getElementById('docheck').style.backgroundColor="white";
+        document.querySelector('.justComp1').style.backgroundColor="white";
+
 }
      
 }
 
 
-
+var vals4= false;
 function changeCol4(){
-    if(!vals){
-        vals=true;
-        document.getElementById('docheck').style.backgroundColor="white";
+    if(!vals4){
+        vals4=true;
+        document.querySelector('.justComp2').style.backgroundColor="white";
+
         document.getElementById('era4').style.backgroundColor=" #e6faff";
         document.getElementById('era4').style.color='#0152a8';
     }else{
-        vals=false;
+        vals4=false;
         document.getElementById('era4').style.backgroundColor="white";
         document.getElementById('era4').style.color='black';
-        document.getElementById('docheck').style.backgroundColor="white";
+        document.querySelector('.justComp2').style.backgroundColor="white";
+
 }
      
 }
