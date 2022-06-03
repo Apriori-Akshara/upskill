@@ -19,7 +19,7 @@ console.log([
     }
 ])
 
-
+location.href='thank.html';
 
 }
 
