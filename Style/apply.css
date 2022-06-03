@@ -10,3 +10,9 @@ background-color: #067cfa !important;
     color: red !important;
 
 }
+#error,#error1,#error2,#error3,#error4{
+    color: red;
+    font-weight: 400;
+    font-size: smaller;
+    display: none;
+}

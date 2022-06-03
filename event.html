@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>applyNow</title>
+    <title>event</title>
     <link rel="stylesheet" href="./Style/Home.css">
+    <link rel="stylesheet" href="./Style/event.css">
     <link rel="stylesheet" href="./Style/apply.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -13,10 +14,9 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
 </head>
 <body>
-    <!--                             navbar                              -->
+    <!--                        navbar                    -->
     <nav class="navbar navbar-expand-lg bg-light stick y">
         <div class="container  centerDo  ">
           <a class="navbar-brand" href="index.html"><img src="https://dapper-entremet-420358.netlify.app/images/Upskill%20Logo%201.svg" alt="logo" class="img-fluid logohw"/></a>
@@ -61,43 +61,56 @@
         </div>
       </nav>
 
-      <!-- Apply now -->
-
-      <div
-      style="background-color:#0152a8 ;"
-      >
-<div class="container">
-    <div class="row text-center py-4">
-        <h1
-        style="color:white;font-weight: 600;font-size:3rem;"
-        >
-           Apply Now
-        </h1>
-    </div>
-   
-</div>
-      </div>
-
       <!-- header image -->
-      
-      <div class="row">
-        <img src="./Images/applys.jpg" alt="coursesHeading" class="img-fluid"
-        style="width:100%;height:300px"
+      <div class="row past_Webinar" onclick="test1()">
+        <img src="./Images/crowd.jpg" alt="coursesHeading" class="img-fluid"
+        style="width:100%;height:300px;opacity:0.6 ;"
         >
+        <div class="row text-center tops" id="eventNo"
+        
+        >
+        <h1
+           style="font-weight:700;font-size:3rem;z-index:1;"
+            >
+           Event 1
+            </h1>
+          
     </div>
-    <!-- registration -->
+
+       
+    </div>
+
+    <!-- duny text -->
+
+    <div class="container " id="dumy">
+        <div class="row text-start">
+       <p id="dumyDatas"
+       style="font-weight:300;font-size: medium;word-spacing:2px;"
+       >
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, eos et quos inventore explicabo voluptate tenetur dolorem quae, deserunt obcaecati veniam asperiores esse hic voluptatibus minima dolore error saepe natus!
+           Voluptatem sed ratione placeat sequi atque commodi soluta et dolores dicta sunt vel corporis aperiam, ullam pariatur ipsam rem, explicabo dolore doloremque ducimus odit ad. Vitae aperiam esse laboriosam iure.
+           Aperiam eius, accusantium dolor consequuntur velit enim, error distinctio, animi optio vitae natus? Beatae soluta nobis fuga odio modi officiis tempore ut, iusto aut voluptate ducimus! Explicabo dolorum sit deleniti.
+           Repellat qui ullam voluptas, vel tenetur, atque error similique iure quam sunt, dolorem consectetur veritatis officiis. Dignissimos consequatur ut ab, officia eum quod fugit dicta fugiat unde dolor cumque accusantium.
+           Iusto modi rerum quo quas, doloribus ratione alias fugiat ab et neque vero natus excepturi assumenda sequi nobis repudiandae sapiente nulla minima officiis architecto qui laboriosam enim, numquam quam? Nihil.
+       </p>
+        </div>
+    </div>
+
+    <!-- event 1 registration -->
 
     <div class="container mt-5">
-        <div class="row text-center">
-            <h3 
-            style="display:inline-block ; font-weight: 700;"
-            >
-            COURSE REGISTRATION
-             
-        </h3>
-                </div>
+        <div class="row text-center" id="registrationText">
+            <h3
+              style="display:inline-block ; font-weight: 700;"
+              >EVENT 1 <span
+             style="color:#0152a8 ;background-color:#ffdab3;"
+             >REGISTRATION</span>
+            </h3>
+         </div>
       </div>
-<!-- form -->
+
+<!--          form             -->
+
 
 <div class="container mt-5">
 
@@ -168,7 +181,7 @@
 
 <div class="row justify-content-around mt-3">
     <div class="col-md-6">
-        <div class="row text-start">
+        <div class="row text-start yuoHide">
             <div class="mb-3 text-start col-10">
                 <select class="form-select" aria-label="Default select example"
                 id="optiondata" 
@@ -204,84 +217,8 @@
 
 </div>
 
- <!-- Footer -->
- <div class="backColo mt-5">
-    <div class="container">
-        <!-- footer section1 -->
-        <div class="row py-5"
-        style="border-bottom: 1px solid white;"
-        >
-            <div class="row text-center">
-    <b
-    
-    >Subscribe for more!</b>
-            </div>
-            <div class="row text-center mt-4">
-    <p
-    style="color:white;font-weight: 500;opacity: 0.8;font-size: large;" 
-    >
-        Stay up to date on Apriori events and free workshops surrounding tech, startups and innovation
-    </p>
-            </div>
-            <div class="row  justify-content-center " id="wait">
-     <div class="col-sm-5 text-center justify-content-end ">
-        <input type="text" class="form-control text-start inputDesign" id="exampleInputSubscribe" aria-describedby="SubscribeHelp" placeholder="apriori12@hmail.com">
-     </div>
-     <div class="col-sm-2 text-center " id="at525cendo">
-         <button class="btn btnStyles-a">Search</button>
-     </div>
-            </div>
-    
-            <div class="row  justify-content-center " id="waitEnd">
-                <div class="col-sm-10 dones" >
-                    <div>
-                       <input type="text" class="form-control text-start yolk" id="exampleInputSubscribe" aria-describedby="SubscribeHelp" placeholder="apriori12@hmail.com">
-                    </div>
-                    <div>
-                       <button class="btn btnStyles">Search</button>
-                    </div>
-                </div>
-            </div>
-          
-    
-        </div>
-        <!-- footer section2 -->
-        <div class="row justify-content-around mt-5">
-    
-    <div class="col-md-3">
-        <div class="row text-center justify-content-center">
-    <img src="https://dapper-entremet-420358.netlify.app/images/Upskill%20Logo%201.svg" alt="footerLogo" class="img-fluid"
-    style="height:100px;width:100px;">
-        </div>
-        <div class="row text-start">
-    <p
-    style="color:white;font-weight: 500;"
-    >
-        We’re bringing tech skills to 
-        <br/>
-        creative people
-    </p>
-        </div>
-    </div>
-    <div class="col-md-7 navlast mt-5">
-    <ul>
-        <li>
-    <a href="#">About us</a>
-        </li>
-        <li>
-            <a href="#">Resources</a>
-        </li>
-        <li>
-            <a href="#">Corporate</a>
-        </li>
-        <li>
-            <a href="#">Follow Us</a>
-        </li>
-    </ul>
-    </div>
-        </div>
-    </div>
-    </div>
+
 <script src="./Jsx/apply.js"></script>
+<script src="./Jsx/upComing.js"></script>
 </body>
 </html>

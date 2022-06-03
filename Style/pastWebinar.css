@@ -1,0 +1,15 @@
+
+.tops{
+    position: relative;
+    bottom: 180px;
+}
+.pastHW{
+    height: 230px !important;
+    width: 100% !important; 
+    margin: 0 auto !important;
+}
+.sideDo{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
