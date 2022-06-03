@@ -5,12 +5,13 @@
     align-items: center !important;
 }
 .go{
-    width: 300px;
+    width: 400px !important;
     color: white !important;
     background-color: #0152a8 !important;
     cursor: pointer !important;
     font-weight: 500 !important;
-    padding:10px 25px !important;
+    padding:10px 25px !important; 
+    margin: 0 auto;
 }
 .go:hover{
     background-color: #067cfa !important;
