@@ -109,7 +109,7 @@ learn to <span class="effected">Learn </span><span class="effected elemented"></
             </div>
             <div class="row justify-content-around mt-5">
                 <div class="col-lg-4 mt-1">
-                    <button class="btn btnStyle">
+                    <button class="btn btnStyle" onclick="directOnCourse()">
                       <b>Discovers our courses</b>  
                      </button>
                 </div>
@@ -161,7 +161,7 @@ learn to <span class="effected">Learn </span><span class="effected elemented"></
 
         <div class="col-lg-6">
             <div class="card shadow px-3  cardHW">
-                <div class="row mt-1">
+                <div class="row mt-3">
                <h4
                style="opacity: 0.9;"
                >Web Development courses</h4>
@@ -213,7 +213,7 @@ learn to <span class="effected">Learn </span><span class="effected elemented"></
 
         <div class="col-lg-6">
             <div class="card shadow px-3  cardHW">
-                <div class="row mt-1">
+                <div class="row mt-3">
                <h4
                style="opacity: 0.9;"
                >Data Science courses</h4>
@@ -731,7 +731,11 @@ var typed = new Typed('.element', {
 
 
   </script>
-
-
+<!-- redirect on course page code -->
+<script>
+function directOnCourse(){
+    location.href='courses.html'
+}
+</script>
 </body>
 </html>

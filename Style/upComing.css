@@ -15,4 +15,15 @@
 }
 .de:hover{
     background-color:azure;
-   
+}
+.uphieds{
+    display: none;
+}
+
+#put12{
+    display: none;
+}
+
+#put123{
+    display: block;
+}

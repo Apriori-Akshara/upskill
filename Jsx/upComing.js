@@ -58,38 +58,152 @@ upCome.map((item,index)=>(
       `
 ))
 
- function eventCall(items,itsd){
+function eventCall(items,itsd){
     const get1=items;
+    const get2=itsd;
+
+    // const dataE=document.getElementById("upComing");
+    // upCome.map((item,index)=>(
+    //     dataE.innerHTML += `
+
+
+    if(get2 == 1){
+        document.getElementById('put123').style.display='none';
+        document.getElementById('put12').style.display='block';
+        document.getElementById('dumyDatas').innerText=get1;
+
+        document.getElementById('eventNo').innerHTML=
+        `  <h1
+        style="font-weight:700;font-size:3rem;z-index:1;"
+        >
+       Event ${itsd}
+       </h1>
+        `;
+     document.getElementById('registrationText').innerHTML=
+     ` <h3
+     style="display:inline-block ; font-weight: 700;"
+     >EVENT ${itsd} <span
+     style="color:#0152a8 ;background-color:#ffdab3;"
+     >REGISTRATION</span>
+    </h3>
+     `;
+        // alert("hii");
+    }else if(get2 == 2){
+        document.getElementById('put123').style.display='none';
+        document.getElementById('put12').style.display='block';
+        document.getElementById('dumyDatas').innerText=get1;
+
+        document.getElementById('eventNo').innerHTML=
+        `  <h1
+        style="font-weight:700;font-size:3rem;z-index:1;"
+        >
+       Event ${itsd}
+       </h1>
+        `;
+     document.getElementById('registrationText').innerHTML=
+     ` <h3
+     style="display:inline-block ; font-weight: 700;"
+     >EVENT ${itsd} <span
+     style="color:#0152a8 ;background-color:#ffdab3;"
+     >REGISTRATION</span>
+    </h3>
+     `;
+       
+        // alert('hii2');
+        
+    }else if(get2 == 3){
+        document.getElementById('put123').style.display='none';
+        document.getElementById('put12').style.display='block';
+        document.getElementById('dumyDatas').innerText=get1;
+
+        document.getElementById('eventNo').innerHTML=
+        `  <h1
+        style="font-weight:700;font-size:3rem;z-index:1;"
+        >
+       Event ${itsd}
+       </h1>
+        `;
+     document.getElementById('registrationText').innerHTML=
+     ` <h3
+     style="display:inline-block ; font-weight: 700;"
+     >EVENT ${itsd} <span
+     style="color:#0152a8 ;background-color:#ffdab3;"
+     >REGISTRATION</span>
+    </h3>
+     `;
+       
+        // alert('hii3');
+        
+    }else if(get2 == 4){
+        document.getElementById('put123').style.display='none';
+        document.getElementById('put12').style.display='block';
+        document.getElementById('dumyDatas').innerText=get1;
+
+        document.getElementById('eventNo').innerHTML=
+        `  <h1
+        style="font-weight:700;font-size:3rem;z-index:1;"
+        >
+       Event ${itsd}
+       </h1>
+        `;
+     document.getElementById('registrationText').innerHTML=
+     ` <h3
+     style="display:inline-block ; font-weight: 700;"
+     >EVENT ${itsd} <span
+     style="color:#0152a8 ;background-color:#ffdab3;"
+     >REGISTRATION</span>
+    </h3>
+     `;
+       
+        // alert('hii4');
+        
+    }else if(get2 == 5){
+        document.getElementById('put123').style.display='none';
+        document.getElementById('put12').style.display='block';
+        document.getElementById('dumyDatas').innerText=get1;
+
+        document.getElementById('eventNo').innerHTML=
+        `  <h1
+        style="font-weight:700;font-size:3rem;z-index:1;"
+        >
+       Event ${itsd}
+       </h1>
+        `;
+     document.getElementById('registrationText').innerHTML=
+     ` <h3
+     style="display:inline-block ; font-weight: 700;"
+     >EVENT ${itsd} <span
+     style="color:#0152a8 ;background-color:#ffdab3;"
+     >REGISTRATION</span>
+    </h3>
+     `;
+       
+        // alert('hii5');
+        
+    }
+
+    
+    else{
+        alert("byy");
+    }
+  
  
-//    const karo=  document.getElementById('dumyDatas1').innerText=get1;;
+//  
    
-location.href='event.html'
-
-//     document.getElementById('eventNo').innerHTML=
-//     `  <h1
-//     style="font-weight:700;font-size:3rem;z-index:1;"
-//     >
-//    Event ${itsd}
-//    </h1>
-//     `;
-//  document.getElementById('registrationText').innerHTML=
-//  ` <h3
-//  style="display:inline-block ; font-weight: 700;"
-//  >EVENT ${itsd} <span
-//  style="color:#0152a8 ;background-color:#ffdab3;"
-//  >REGISTRATION</span>
-// </h3>
-//  `;
+// location.href='event.html'
 
 
 
-    alert(get1);
+
+
+    // alert(get1);
   
 }
+
 
 //document.getElementById('dumyDatas').innerText=get1;
 
 
- function test1(){
-    document.getElementById('dumyDatas').innerText=get1;
- }
+//  function test1(){
+//     document.getElementById('dumyDatas').innerText=get1;
+//  }
