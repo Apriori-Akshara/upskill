@@ -1,10 +1,12 @@
 
+
+
 function getResults1(){
  secondFun();
 // location.href='thank.html';
 }
 
-function  secondFun(){
+ function  secondFun(){
 
 
     const email = document.getElementById('emaildata').value;
@@ -128,6 +130,9 @@ else{
     document.getElementById('optiondata').style.borderColor="green";
 }
 
+
+
+
     const keep= [
         {
             email:email,
@@ -141,7 +146,7 @@ else{
     console.log(keep);
     
     
-location.href='thank.html';
+// location.href='thank.html';
 
 return true;
 } 
