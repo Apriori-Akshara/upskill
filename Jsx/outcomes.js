@@ -50,7 +50,7 @@ outcome.map((item,index)=>(
     <div class="boxHW px-1"> 
    
        <div class="row text-center mt-5">
-           <p class="childs">
+           <p class="childs mt-4">
                <b>${item.title1}</b>
            </p>
        </div>
