@@ -31,6 +31,10 @@ background-color: black !important;
   
     
 }
+.drop{
+    padding: 0 5px !important;
+   
+}
 
 .fix{
     color:#F3F3F3 !important;
@@ -40,6 +44,7 @@ background-color: black !important;
 }
 .fix:active,.fix:hover{
 background-color:#067cfa !important;
+width: 100% !important;
 }
    
 .colwhite ul li a:hover:not(.fix){

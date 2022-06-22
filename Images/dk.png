@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://www.fuelbankfoundation.org/ -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <script type="text/javascript" async="" src="./dk_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-/iQ3pP5Zp4fD1rguiVgUcA3QJDibOZveudin4X8yHdfRi2QqesZ/FnO4f4VjeD8/"></script><script type="text/javascript">
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async="" src="./dk_files/js"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-HRPGWD7KS6');
+      </script>
+    <script data-cfasync="false" type="text/javascript">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" type="text/javascript">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll(".rev_slider ul li"),r=0,a=i.length;r<a;r++){ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"));for(var n=1;n<11;)ewwwAttr(i[r],"data-param"+n,i[r].getAttribute("data-webp-param"+n)),n++}for(r=0,a=(i=document.querySelectorAll(".rev_slider img")).length;r<a;r++)ewwwAttr(i[r],"data-lazyload",i[r].getAttribute("data-webp-lazyload"));for(var o=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=o.length;r<a;r++)ewwwAttr(o[r],"data-thumb",o[r].getAttribute("data-webp-thumb"))}for(var l=document.querySelectorAll("video"),r=0,a=l.length;r<a;r++)ewwwAttr(l[r],"poster",e?l[r].getAttribute("data-poster-webp"):l[r].getAttribute("data-poster-image"));for(var s,c=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=c.length;r<a;r++)e&&(ewwwAttr(c[r],"data-lazy-srcset",c[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(c[r],"data-srcset",c[r].getAttribute("data-srcset-webp")),ewwwAttr(c[r],"data-lazy-src",c[r].getAttribute("data-lazy-src-webp")),ewwwAttr(c[r],"data-src",c[r].getAttribute("data-src-webp")),ewwwAttr(c[r],"data-orig-file",c[r].getAttribute("data-webp-orig-file")),ewwwAttr(c[r],"data-medium-file",c[r].getAttribute("data-webp-medium-file")),ewwwAttr(c[r],"data-large-file",c[r].getAttribute("data-webp-large-file")),null!=(s=c[r].getAttribute("srcset"))&&!1!==s&&s.includes("R0lGOD")&&ewwwAttr(c[r],"src",c[r].getAttribute("data-lazy-src-webp"))),c[r].className=c[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var w=document.querySelectorAll(".ewww_webp"),r=0,a=w.length;r<a;r++)e?(ewwwAttr(w[r],"srcset",w[r].getAttribute("data-srcset-webp")),ewwwAttr(w[r],"src",w[r].getAttribute("data-src-webp")),ewwwAttr(w[r],"data-orig-file",w[r].getAttribute("data-webp-orig-file")),ewwwAttr(w[r],"data-medium-file",w[r].getAttribute("data-webp-medium-file")),ewwwAttr(w[r],"data-large-file",w[r].getAttribute("data-webp-large-file")),ewwwAttr(w[r],"data-large_image",w[r].getAttribute("data-webp-large_image")),ewwwAttr(w[r],"data-src",w[r].getAttribute("data-webp-src"))):(ewwwAttr(w[r],"srcset",w[r].getAttribute("data-srcset-img")),ewwwAttr(w[r],"src",w[r].getAttribute("data-src-img"))),w[r].className=w[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Home | Fuel Bank Foundation</title>
+	<meta name="description" content="We work with selected foodbanks and advice agencies to provide people with the breathing space they need to get back on their feet.">
+	<link rel="canonical" href="https://www.fuelbankfoundation.org/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Home | Fuel Bank Foundation">
+	<meta property="og:description" content="We work with selected foodbanks and advice agencies to provide people with the breathing space they need to get back on their feet.">
+	<meta property="og:url" content="https://www.fuelbankfoundation.org/">
+	<meta property="og:site_name" content="Fuel Bank Foundation">
+	<meta property="article:modified_time" content="2022-05-09T16:27:43+00:00">
+	<meta property="og:image" content="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095812/fuel-bank-social-card-scaled.jpg">
+	<meta property="og:image:width" content="2560">
+	<meta property="og:image:height" content="1440">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://stage.plottcreative.co.uk/fuelbank/#organization","name":"Fuel Bank Foundation","url":"https://stage.plottcreative.co.uk/fuelbank/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://stage.plottcreative.co.uk/fuelbank/#logo","inLanguage":"en-US","url":"https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/04095839/fbf_logo_horiz_black.svg","contentUrl":"https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/04095839/fbf_logo_horiz_black.svg","caption":"Fuel Bank Foundation"},"image":{"@id":"https://stage.plottcreative.co.uk/fuelbank/#logo"}},{"@type":"WebSite","@id":"https://stage.plottcreative.co.uk/fuelbank/#website","url":"https://stage.plottcreative.co.uk/fuelbank/","name":"Fuel Bank Foundation","description":"Helping homes in fuel crisis","publisher":{"@id":"https://stage.plottcreative.co.uk/fuelbank/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://stage.plottcreative.co.uk/fuelbank/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.fuelbankfoundation.org/#primaryimage","inLanguage":"en-US","url":"https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095812/fuel-bank-social-card-scaled.jpg","contentUrl":"https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095812/fuel-bank-social-card-scaled.jpg","width":2560,"height":1440},{"@type":"WebPage","@id":"https://www.fuelbankfoundation.org/#webpage","url":"https://www.fuelbankfoundation.org/","name":"Home | Fuel Bank Foundation","isPartOf":{"@id":"https://stage.plottcreative.co.uk/fuelbank/#website"},"about":{"@id":"https://stage.plottcreative.co.uk/fuelbank/#organization"},"primaryImageOfPage":{"@id":"https://www.fuelbankfoundation.org/#primaryimage"},"datePublished":"2020-04-17T15:14:24+00:00","dateModified":"2022-05-09T16:27:43+00:00","description":"We work with selected foodbanks and advice agencies to provide people with the breathing space they need to get back on their feet.","breadcrumb":{"@id":"https://www.fuelbankfoundation.org/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.fuelbankfoundation.org/"]}]},{"@type":"BreadcrumbList","@id":"https://www.fuelbankfoundation.org/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://unpkg.com/">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+<link rel="dns-prefetch" href="https://code.jquery.com/">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="stylesheet" id="wp-block-library-css" href="./dk_files/style.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="fa-css" href="./dk_files/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="fancy-box-css" href="./dk_files/jquery.fancybox.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="poppins-css-css" href="./dk_files/css2" type="text/css" media="all">
+<link rel="stylesheet" id="my-style-css" href="./dk_files/main.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="fix-style-css" href="./dk_files/style.css" type="text/css" media="all">
+<script type="text/javascript" src="./dk_files/jquery.min.js.download" id="jquery-core-js"></script>
+<script type="text/javascript" src="./dk_files/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./dk_files/jquery.waypoints.min.js.download" id="waypoints-js"></script>
+<script type="text/javascript" src="./dk_files/custom.min.js.download" id="my-script-js"></script>
+<link rel="https://api.w.org/" href="https://www.fuelbankfoundation.org/wp-json/"><link rel="alternate" type="application/json" href="https://www.fuelbankfoundation.org/wp-json/wp/v2/pages/13"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.fuelbankfoundation.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.fuelbankfoundation.org/wp-includes/wlwmanifest.xml"> 
+
+<link rel="shortlink" href="https://www.fuelbankfoundation.org/">
+<link rel="alternate" type="application/json+oembed" href="https://www.fuelbankfoundation.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.fuelbankfoundation.org%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.fuelbankfoundation.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.fuelbankfoundation.org%2F&amp;format=xml">
+     <link rel="apple-touch-icon" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon.png">
+     <link rel="apple-touch-icon" sizes="57x57" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-57x57.png">
+     <link rel="apple-touch-icon" sizes="72x72" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-72x72.png">
+     <link rel="apple-touch-icon" sizes="76x76" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-76x76.png">
+     <link rel="apple-touch-icon" sizes="114x114" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-114x114.png">
+     <link rel="apple-touch-icon" sizes="120x120" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-120x120.png">
+     <link rel="apple-touch-icon" sizes="144x144" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-144x144.png">
+     <link rel="apple-touch-icon" sizes="152x152" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-152x152.png">
+     <link rel="apple-touch-icon" sizes="180x180" href="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/favicon/apple-icon-180x180.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style><link rel="icon" href="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/24104451/cropped-favicon-1-32x32.png" sizes="32x32">
+<link rel="icon" href="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/24104451/cropped-favicon-1-192x192.png" sizes="192x192">
+<meta name="msapplication-TileImage" content="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/24104451/cropped-favicon-1-270x270.png">
+  </head>
+          <body class="home page-template page-template-page-builder page-template-page-builder-php page page-id-13 plott webp-support" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<script data-cfasync="false">if(ewww_webp_supported){document.body.classList.add("webp-support");}</script>
+    		<div class="main">
+      <div class="rotate-device">
+  <div class="rotate-device__container">
+    <picture><source srcset="https://www.fuelbankfoundation.org/wp-content/themes/fuelbank/assets/build/img/rotate_screen_icon.gif.webp" type="image/webp"><img src="./dk_files/rotate_screen_icon.gif" alt="" data-eio="p"></picture>
+    <p>Please Rotate Your Device</p>
+  </div>
+</div>
+    <header class="main-header">
+      <div class="row h-100 align-items-center">
+        <div class="col-6">
+          <a href="https://www.fuelbankfoundation.org/" class="main-header__logo remove_logo">
+                        <img src="./dk_files/fbf_logo.svg" alt="" class="main-logo">
+            <img src="./dk_files/fbf_logo_horiz_rev.svg" alt="" class="mobile-logo">
+                      </a>
+        </div>
+        <div class="col-6 text-right">
+          <div class="menu_text d-none d-md-inline-block">
+            <h6 class="menu-text d-inline menu_menu show remove_logo">Menu</h6>
+            <h6 class="menu-text d-inline menu_close hide remove_logo">Close</h6>
+          </div>
+          <div class="main-toggle" id="toggle">
+            <div class="hamburger">
+              <div class="hamburger--line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="overlay" id="overlay">
+     <nav class="overlay-menu">
+       <ul class="main-menu__container">
+           <li id="menu-item-111" class="squiggle_one menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-111"><a href="https://www.fuelbankfoundation.org/partners/" class="main-menu__link">Partners</a></li>
+<li id="menu-item-110" class="squiggle_two menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-110"><a href="https://www.fuelbankfoundation.org/individuals/" class="main-menu__link">Individuals</a></li>
+<li id="menu-item-109" class="squiggle_one menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-109"><a href="https://www.fuelbankfoundation.org/the-movement/" class="main-menu__link">The Movement</a></li>
+<li id="menu-item-108" class="squiggle_two menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-108"><a href="https://www.fuelbankfoundation.org/our-story/" class="main-menu__link">Our Story</a></li>
+<li id="menu-item-969" class="squiggle_one menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-969"><a href="https://www.fuelbankfoundation.org/policy-research/" class="main-menu__link">Policy &amp; Research</a></li>
+<li id="menu-item-595" class="squiggle_two menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-595"><a href="https://www.fuelbankfoundation.org/news/" class="main-menu__link">News &amp; Press</a></li>
+<li id="menu-item-107" class="squiggle_one menu-item menu-item-type-post_type menu-item-object-page main-menu__item menu-item-107"><a href="https://www.fuelbankfoundation.org/contact/" class="main-menu__link">Contact</a></li>
+           <li class="main-menu__button">
+             <a href="https://cafdonate.cafonline.org/7264#!/DonationDetails" target="_blank" class="main-menu__button-dontate">Donate Now <span class="menu-icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span></a>
+           </li>
+         </ul>
+     </nav>
+    </div>
+
+<div class="hero" style="background: url(https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/12/04105152/fuelbank-hero-jpg-scaled.jpg)">
+  <div class="hero__container container-fluid">
+    <div class="home-hero__content d-none d-lg-block">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <div class="home-hero__content--container fadeIn">
+            <h1 class="home-hero__content--heading aos-init aos-animate" data-aos="fade-up" data-aos-delay="350"> <p class="p1"><span class="s1">HELPING HOMES </span><span class="s1">IN FUEL <strong>CRISIS.</strong></span></p>
+ </h1>
+            <h2 class="home-hero__content--subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="650"> <p>No one should have to live in fuel crisis. We work with selected foodbanks and advice agencies to provide people with the breathing space they need to get back on their feet.</p>
+ </h2>
+              <div class="row align-items-center">
+                  <div class="col-12 col-xl-6">
+            <div class="home-hero__button wiggle-button aos-init aos-animate" data-aos="fade-up" data-aos-delay="950">
+              <a href="https://www.fuelbankfoundation.org/partners/" class="home-hero__button--primary">Become a partner <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a>
+            </div>
+                  </div>
+                  <div class="col-12 col-xl-6">
+                    <div class="home-hero__button wiggle-button aos-init aos-animate" data-aos="fade-up" data-aos-delay="950">
+                        <a href="https://cafdonate.cafonline.org/7264#!/DonationDetails" class="home-hero__button--secondary" target="_blank">Donate now <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="images fadeIn">
+						<img src="./dk_files/illustration1-1.svg" alt="" class="image-one wiggle">
+            <img src="./dk_files/illustration2-1.svg" alt="" class="image-two floater">
+            <img src="./dk_files/illustration3-1.svg" alt="" class="image-three rotation">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-hero__content d-block d-lg-none">
+      <div class="home-hero__content--container fadeIn">
+        <h1 class="home-hero__content--heading"> <p class="p1"><span class="s1">HELPING HOMES </span><span class="s1">IN FUEL <strong>CRISIS.</strong></span></p>
+ </h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="d-flex d-lg-none mobile-hero__content">
+  <h2 class="home-hero__content--subheading"> <p>No one should have to live in fuel crisis. We work with selected foodbanks and advice agencies to provide people with the breathing space they need to get back on their feet.</p>
+ </h2>
+  <div class="home-hero__button wiggle-button">
+    <a href="https://www.fuelbankfoundation.org/partners/" class="home-hero__button--primary">Become a partner <span> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a>
+  </div>
+    <div class="home-hero__button wiggle-button mt-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="950">
+        <a href="https://cafdonate.cafonline.org/7264#!/DonationDetails" class="home-hero__button--secondary" target="_blank">Donate now <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a>
+    </div>
+</div>
+<div class="whats-new">
+  <div class="whats-new__icons"></div>
+  <div class="whats-new__container container-fluid">
+    <div class="whats-new-swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+      <div class="swiper-wrapper" style="transition-duration: 300ms;"><div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="width: 780px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> Simon's leaving gift  </h2>
+            <div class="whats-new__content">
+              <p>After nearly 5 years as Energy UK’s Public Affairs supremo, Simon Markall is off to pastures new (Scottish Power actually). In lieu of contributions towards a leaving present, Simon has requested that people instead make donations to the Fuel Bank Foundation in order to support the invaluable work the Foundation does – which is more essential then ever right now. Many thanks in anticipation.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://cafdonate.cafonline.org/20679" target="">Donate now <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+                  <div class="swiper-slide text-center" data-swiper-slide-index="0" style="width: 780px; opacity: 1; transform: translate3d(-780px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> The Young Energy Professionals (YEP) Forum Partnership </h2>
+            <div class="whats-new__content">
+              <p>The YEP Forum and Fuel Bank Foundation are working together to raise money to help families and households across Britain. Click on the link below to donate which will also help both YEP and Fuel Bank to raise awareness of the necessary work needed to help provide essential support for those most in need.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://cafdonate.cafonline.org/20500" target="">Donate now <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+                  <div class="swiper-slide text-center" data-swiper-slide-index="1" style="width: 780px; opacity: 1; transform: translate3d(-1560px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> What to do if you need help </h2>
+            <div class="whats-new__content">
+              <p>If you are struggling to top up your prepayment meter or to pay your energy bills, contact your energy supplier as all suppliers are obligated to help people who are at risk of losing their energy supply.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://www.fuelbankfoundation.org/help/" target="">Read more <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+                  <div class="swiper-slide text-center" data-swiper-slide-index="2" style="width: 780px; opacity: 1; transform: translate3d(-2340px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> Ofgem energy price cap increase response </h2>
+            <div class="whats-new__content">
+              <p>Energy regulator Ofgem has announced changes to the price cap on default energy tariffs.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://www.fuelbankfoundation.org/news/ofgem-energy-price-cap-increase-response" target="">Find out more <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+                  <div class="swiper-slide text-center swiper-slide-prev" data-swiper-slide-index="3" style="width: 780px; opacity: 1; transform: translate3d(-3120px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> Warm Home Discount Pre-registration </h2>
+            <div class="whats-new__content">
+              <p>Suppliers are accepting applications and pre-registrations for £140 Warm Home Discount 2021/22 payments. Contact your supplier now.</p>
+<p>&nbsp;</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://www.fuelbankfoundation.org/individuals/" target="">Read more <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+                  <div class="swiper-slide text-center swiper-slide-active" data-swiper-slide-index="4" style="width: 780px; opacity: 1; transform: translate3d(-3900px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> Join our community </h2>
+            <div class="whats-new__content">
+              <p>Have you ever struggled to top up your meters? If so, we want to make sure that your experiences are heard by the Government and policy-makers to make things better for you and other people like you.</p>
+<p>We’d like you to take part in surveys, questionnaires or focus groups – either online or in person. Just get involved when you have time.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://www.fuelbankfoundation.org/contact/" target="">Contact Us <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+                  <div class="swiper-slide text-center swiper-slide-next" data-swiper-slide-index="5" style="width: 780px; opacity: 0; transform: translate3d(-4680px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> Simon's leaving gift  </h2>
+            <div class="whats-new__content">
+              <p>After nearly 5 years as Energy UK’s Public Affairs supremo, Simon Markall is off to pastures new (Scottish Power actually). In lieu of contributions towards a leaving present, Simon has requested that people instead make donations to the Fuel Bank Foundation in order to support the invaluable work the Foundation does – which is more essential then ever right now. Many thanks in anticipation.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://cafdonate.cafonline.org/20679" target="">Donate now <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div>
+              <div class="swiper-slide text-center swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 780px; opacity: 0; transform: translate3d(-5460px, 0px, 0px); transition-duration: 300ms;">
+            <h2 class="whats-new__heading"> The Young Energy Professionals (YEP) Forum Partnership </h2>
+            <div class="whats-new__content">
+              <p>The YEP Forum and Fuel Bank Foundation are working together to raise money to help families and households across Britain. Click on the link below to donate which will also help both YEP and Fuel Bank to raise awareness of the necessary work needed to help provide essential support for those most in need.</p>
+            </div>
+            <ul class="whats-new__buttons">
+                              <li class="whats-new__button"> <a href="https://cafdonate.cafonline.org/20500" target="">Donate now <span class="whats-new__button--icon"> <img src="./dk_files/arrow_black.svg" alt=""> </span> </a> </li>
+                                        </ul>
+          </div></div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination-whats-new swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span></div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+  </div>
+</div>
+<div class="two-col-cards">
+	<div class="two-col-cards__container container-fluid">
+		<h2 class="two-col-cards-heading">How can we <strong>help</strong> you?</h2>
+		<div class="row">
+							<div class="col-12 col-md-6">
+					<a href="https://fuelbankfoundation.org/partners/">
+						<div class="two-col-cards__card">
+							<div class="two-col-cards__head" style="background: url(&#39;https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/05/04095827/angle-partner.png&#39;)"></div>
+							<div class="two-col-cards__card--body match" style="height: 286px;">
+								<h4 class="two-col-cards__heading">I’m a partner</h4>
+								<div class="two-col-cards__content"><p class="p1"><span class="s1">We work with a range of advice agencies who offer fuel crisis support providing top up vouchers for those in need. If you want to join us find out more here.</span></p>
+</div>
+								<div class="two-col-cards__button text-center">
+									 <img src="./dk_files/arrow_yellow.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+							<div class="col-12 col-md-6">
+					<a href="https://fuelbankfoundation.org/individuals/">
+						<div class="two-col-cards__card">
+							<div class="two-col-cards__head" style="background: url(&#39;https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/05/04095828/angle-individual.png&#39;)"></div>
+							<div class="two-col-cards__card--body match" style="height: 286px;">
+								<h4 class="two-col-cards__heading">I’m an individual</h4>
+								<div class="two-col-cards__content"><p>We’ve got information and some practical advice to help you manage your energy account and your finances.</p>
+</div>
+								<div class="two-col-cards__button text-center">
+									 <img src="./dk_files/arrow_yellow.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+					</div>
+	</div>
+</div>
+<div class="stats-panel">
+  <div class="stats-panel__container container-fluid">
+    <h2 class="stats-panel__heading"><p class="p1"><span class="s1">HOW WE HAVE MADE A <strong>DIFFERENCE</strong> SO FAR.</span></p>
+</h2>
+    <div class="stats-panel__row row">
+                    <div class="col-12 col-md-4 stats-panel__stat-single aos-init" data-aos="fade-up" data-aos-delay="0" data-aos-speed="1200">
+          <img src="./dk_files/flame-icon.svg" alt="" class="stats-panel__stat--icon">
+          <h4 class=" stats-panel__stat--stat">140+</h4>
+          <h5 class="stats-panel__stat--heading">Fuel Bank centers</h5>
+        </div>
+              <div class="col-12 col-md-4 stats-panel__stat-single aos-init" data-aos="fade-up" data-aos-delay="150" data-aos-speed="1200">
+          <img src="./dk_files/people_icon.svg" alt="" class="stats-panel__stat--icon">
+          <h4 class=" stats-panel__stat--stat">312k</h4>
+          <h5 class="stats-panel__stat--heading">People supported</h5>
+        </div>
+              <div class="col-12 col-md-4 stats-panel__stat-single aos-init" data-aos="fade-up" data-aos-delay="300" data-aos-speed="1200">
+          <img src="./dk_files/lightbulb-icon.svg" alt="" class="stats-panel__stat--icon">
+          <h4 class=" stats-panel__stat--stat">£6m</h4>
+          <h5 class="stats-panel__stat--heading">Fuel crisis funding</h5>
+        </div>
+          </div>
+  </div>
+</div>
+<div class="testimonials">
+  <div class="test-yolk"></div>
+  <div class="testimonials__container container-fluid">
+    <div class="swiper-container testimonials-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+      <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="7" style="width: 1280px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095819/female-test-place.png.webp" type="image/webp"><img src="./dk_files/female-test-place.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Fuel Bank helps alleviate Hartlepool residents situation with fuel poverty. Residents are then more likely to continue to access support and services from our other projects which extend beyond fuel to employment, welfare benefits and even electric vehicles!</p>
+          </div>
+          <div class="testimonials__author">
+            Clair, HartlePower          </div>
+        </div>
+      </div>
+    
+    
+      <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 1280px; opacity: 1; transform: translate3d(-1280px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/04095814/hugh.png.webp" type="image/webp"><img src="./dk_files/hugh.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Without the Fuel Bank partnership many people would simply go hungry and go cold, it’s been a life changer. There is no other practical, time sensitive help available to those in fuel poverty that is so effective at meeting peoples immediate need.</p>
+          </div>
+          <div class="testimonials__author">
+            Hugh, Coventry Foodbank          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide" data-swiper-slide-index="1" style="width: 1280px; opacity: 1; transform: translate3d(-2560px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095817/mary-anne.png.webp" type="image/webp"><img src="./dk_files/mary-anne.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>When clients ask for help with fuel, it opens the door to conversations about their financial situation and then further help that we can provide, either with benefits or with their debts. The short-term support can turn into a long-term solution to improving the lives and well-being of the client.</p>
+          </div>
+          <div class="testimonials__author">
+            Mary-anne, Money Matters (Saltbox)          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide" data-swiper-slide-index="2" style="width: 1280px; opacity: 1; transform: translate3d(-3840px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095817/paul.png.webp" type="image/webp"><img src="./dk_files/paul.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Fuel Bank makes a massive difference. Having the option to help people in vulnerable situations has given our frontline service more tools to better support their communities. So many people are unable to reach out to the usual channels, especially during the lockdown due to fear or guilt, so when they come to us it’s good to get them the help they need.</p>
+          </div>
+          <div class="testimonials__author">
+            Paul, Christians Against Poverty          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide" data-swiper-slide-index="3" style="width: 1280px; opacity: 1; transform: translate3d(-5120px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095818/audrey.png.webp" type="image/webp"><img src="./dk_files/audrey.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Thanks to the Fuel Bank vouchers we’ve been able to save lives, either because clients were able to eat but for some it had an even greater impact on their mental health and therefore they weren’t so inclined to self-harm to stop themselves thinking of how bad their situation was.</p>
+          </div>
+          <div class="testimonials__author">
+            Audrey, Glasgow Foodbank          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide" data-swiper-slide-index="4" style="width: 1280px; opacity: 1; transform: translate3d(-6400px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095818/maggs.png.webp" type="image/webp"><img src="./dk_files/maggs.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Fuel Bank is a key part of our support package, it helps to reduce stress and provides breathing space for a clients’ financial situation to improve and importantly it provides hope that people care. By accessing Fuel Bank services the clients are supported through the process of making positive changes in multiple areas of their lives.</p>
+          </div>
+          <div class="testimonials__author">
+            Maggs, G52 Community Group          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide" data-swiper-slide-index="5" style="width: 1280px; opacity: 1; transform: translate3d(-7680px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095817/michele.png.webp" type="image/webp"><img src="./dk_files/michele.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p class="p1"><span class="s1">The Fuel Bank allows us to give that much more immediate help. It’s not just topping up clients gas and electric, it’s giving them their dignity back: they’re able to go home and have a hot meal, have a hot shower, as well as heat their homes.</span></p>
+          </div>
+          <div class="testimonials__author">
+            Michele, Wirral Foodbank          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="6" style="width: 1280px; opacity: 1; transform: translate3d(-8960px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095814/southstaffs.png.webp" type="image/webp"><img src="./dk_files/southstaffs.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Having a fuel voucher prompts customers to contact us through other organisations we work with, meaning we’re able to support customers with our water social tariff who we probably wouldn’t otherwise find. It’s meant we can help address all utility related issues and help provide some relief whilst customers seek help from other sources.</p>
+          </div>
+          <div class="testimonials__author">
+            Community Engagement Team, South Staffs Water          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="7" style="width: 1280px; opacity: 1; transform: translate3d(-10240px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/06/04095819/female-test-place.png.webp" type="image/webp"><img src="./dk_files/female-test-place.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Fuel Bank helps alleviate Hartlepool residents situation with fuel poverty. Residents are then more likely to continue to access support and services from our other projects which extend beyond fuel to employment, welfare benefits and even electric vehicles!</p>
+          </div>
+          <div class="testimonials__author">
+            Clair, HartlePower          </div>
+        </div>
+      </div>
+          <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 1280px; opacity: 0; transform: translate3d(-11520px, 0px, 0px); transition-duration: 0ms;">
+        <figure class="testimonials__profile--container">
+          <picture><source srcset="https://assets.plottcdn.co.uk/fuelbank/wp-content/uploads/2020/04/04095814/hugh.png.webp" type="image/webp"><img src="./dk_files/hugh.png" alt="" class="testimonials__profile-image" data-eio="p"></picture>
+        </figure>
+        <div class="testimonials__content-container">
+          <div class="testimonials__content">
+            <p>Without the Fuel Bank partnership many people would simply go hungry and go cold, it’s been a life changer. There is no other practical, time sensitive help available to those in fuel poverty that is so effective at meeting peoples immediate need.</p>
+          </div>
+          <div class="testimonials__author">
+            Hugh, Coventry Foodbank          </div>
+        </div>
+      </div></div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      <div class="swiper-pagination testimonials-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 8"></span></div>
+  </div>
+</div>
+<div class="donation-boxes">
+  <div class="donation-boxes__container container-fluid">
+    <h2 class="donation-boxes__heading">Let’s make a change!</h2>
+    <div class="donation-boxes__row row">
+              <div class="col-lg-6 col-12 donation-box" data-tilt="" data-tilt-max="6">
+					<a href="https://cafdonate.cafonline.org/7264#!/DonationDetails" target="_blank">
+	          <div class="donation-boxes__box text-center">
+	            <div class="row h-100 align-items-center">
+	              <div class="col-12 col-md-4 mb-4 mb-md-0">
+	                <img src="./dk_files/handheart.svg" alt="">
+	              </div>
+	              <div class="col-12 col-md-8">
+	                <h4 class="donation-boxes__box-heading"> <p class="p1"><span class="s1">MAKE A <strong>DONATION</strong></span></p>
+ </h4>
+	              </div>
+	            </div>
+	          </div>
+					</a>
+        </div>
+              <div class="col-lg-6 col-12 donation-box" data-tilt="" data-tilt-max="6">
+					<a href="https://fuelbankfoundation.org/contact/" target="">
+	          <div class="donation-boxes__box text-center">
+	            <div class="row h-100 align-items-center">
+	              <div class="col-12 col-md-4 mb-4 mb-md-0">
+	                <img src="./dk_files/grouppeople.svg" alt="">
+	              </div>
+	              <div class="col-12 col-md-8">
+	                <h4 class="donation-boxes__box-heading"> <p class="p1"><span class="s1">BECOME A <em>PARTNER</em></span></p>
+ </h4>
+	              </div>
+	            </div>
+	          </div>
+					</a>
+        </div>
+          </div>
+  </div>
+</div>
+
+
+  <footer class="main-footer">
+    <div class="main-footer__container container-fluid">
+			<div class="main-footer-icons d-none d-md-block">
+				<img src="./dk_files/illustration1.svg" alt="" class="main-footer-icons__one wiggle d-none d-lg-block">
+				<img src="./dk_files/illustration2.svg" alt="" class="main-footer-icons__two floater">
+				<img src="./dk_files/illustration3.svg" alt="" class="main-footer-icons__three wiggle">
+			</div>
+			<div class="main-footer__container-content">
+        <div class="row">
+          <div class="col-12">
+	           <h3 class="form_heading"> Stay up to date. </h3>
+          </div>
+          <div class="col-12">
+    	      <div class="main-footer__form-wrapper container my-4">
+    	        <script type="text/javascript">var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});</script>
+                <div class="gf_browser_chrome gform_wrapper gform_legacy_markup_wrapper" id="gform_wrapper_1"><div id="gf_1" class="gform_anchor" tabindex="-1"></div><form method="post" enctype="multipart/form-data" target="gform_ajax_frame_1" id="gform_1" action="https://www.fuelbankfoundation.org/#gf_1" novalidate=""><input type="hidden" class="gform_hidden" name="gnd_token" id="gnd_token" autocomplete="off" value="20220607093442-306bd2b948f46798d5e527a234169064b46a0f9f">
+                        <div class="gform_body gform-body"><ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below"><li id="field_1_1" class="gfield input-80 email-input gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible" data-js-reload="field_1_1"><label class="gfield_label" for="input_1_1">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_email">
+                            <input name="input_1" id="input_1_1" type="email" value="" class="large" tabindex="49" placeholder="Your email address" aria-required="true" aria-invalid="false">
+                        </div></li><li id="field_1_2" class="gfield input-20 input-submit gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_1_2"><input type="submit" class="subscribe-form__submit" id="gform_submit_button_1"></li><li id="field_1_3" class="gfield field_sublabel_below field_description_below hidden_label gfield_visibility_visible" data-js-reload="field_1_3"><label class="gfield_label" for="input_1_3">CAPTCHA</label><div id="input_1_3" class="ginput_container ginput_recaptcha gform-initialized" data-sitekey="6LcEXaUZAAAAAIKbHi8Xgbx__ox2EoRq1SPTH_41" data-theme="light" data-tabindex="-1" data-size="invisible" data-badge="bottomright"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s ease 0s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./dk_files/anchor.html" width="256" height="60" role="presentation" name="a-dm0ziehljmk2" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" tabindex="-1"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./dk_files/saved_resource.html"></iframe></div></li></ul></div>
+        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Submit" tabindex="50" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"> <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=&amp;description=&amp;tabindex=49">
+            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
+            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
+            
+            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
+            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjlhMTY2ZDY5NDViZDcwMzczNDNjMDYxODllNDcyZjY0Il0=">
+            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
+            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
+            <input type="hidden" name="gform_field_values" value="">
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style="display:none;width:0px;height:0px;" src="./dk_files/saved_resource(1).html" name="gform_ajax_frame_1" id="gform_ajax_frame_1" title="This iframe contains the logic required to handle Ajax powered Gravity Forms."></iframe>
+                <script type="text/javascript">
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.fuelbankfoundation.org/wp-content/plugins/gravityforms/images/spinner.svg' );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.fuelbankfoundation.org/wp-content/plugins/gravityforms/images/spinner.svg' );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}, 50);}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1, current_page]);} );} );
+</script>
+    	      </div>
+          </div>
+          <div class="col-12">
+    	      <div class="form__disclaimer--wrapper text-center my-4">
+    	      	<div class="form_disclaimer"> <p class="p1">We occasionally send marketing emails. Please read our <a href="https://fuelbankfoundation.org/privacy-policy/">privacy policy</a> for more information.</p>
+ </div>
+    	      </div>
+          </div>
+        </div>
+			</div>
+      <img src="./dk_files/fbf_logo_rev_footer.svg" alt="" class="d-block d-md-none footer-logo text-center">
+      <hr class="footer__line">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-6 col-12 text-center text-md-left">
+          <ul class="footer-menu__container">
+              <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page footer-menu__item menu-item-74"><a href="https://www.fuelbankfoundation.org/cookies/" class="footer-menu__link">Cookies</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page footer-menu__item menu-item-73"><a href="https://www.fuelbankfoundation.org/terms/" class="footer-menu__link">Terms</a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy footer-menu__item menu-item-75"><a href="https://www.fuelbankfoundation.org/privacy-policy/" class="footer-menu__link">Privacy</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom footer-menu__item menu-item-76"><a target="_blank" href="https://www.plottcreative.co.uk/" class="footer-menu__link">Site by PLOTT</a></li>
+            </ul>
+            <p class="footer-copy__charity">© 2020 Reg. Charity in England &amp; Wales (1175049) and Scotland (SCO48330).</p>
+          </div>
+          <div class="col-md-6 col-12 text-center text-md-right">
+          <a href="https://www.fuelbankfoundation.org/">
+            <img src="./dk_files/fbf_logo_horiz_rev.svg" alt="" class="d-none d-md-block text-md-right main-footer__logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+	</div>
+      <div class="preloader hide" style="display: none;">
+      <img src="./dk_files/zigzag_black.svg" alt="" class="animated infinite slow rubberBand">
+    </div>
+    <script type="text/javascript" src="./dk_files/aos.js.download" id="aos-js"></script>
+<script type="text/javascript" src="./dk_files/isotope.pkgd.min.js.download" id="isotopes-js"></script>
+<script type="text/javascript" src="./dk_files/imagesloaded.pkgd.min.js.download" id="images-loaded-js"></script>
+<script type="text/javascript" src="./dk_files/jquery.fancybox.min.js.download" id="fancy-script-js"></script>
+<script type="text/javascript" src="./dk_files/jquery.matchHeight-min.js.download" id="match-script-js"></script>
+<script type="text/javascript" src="./dk_files/jquery-3.5.1.slim.min.js.download" id="boot1-js"></script>
+<script type="text/javascript" src="./dk_files/popper.min.js.download" id="boot2-js"></script>
+<script type="text/javascript" src="./dk_files/bootstrap.min.js.download" id="boot3-js"></script>
+<script type="text/javascript" src="./dk_files/anime.min.js.download" id="animejs-js"></script>
+<script type="text/javascript" src="./dk_files/swiper.min.js.download" id="swiper-js"></script>
+<script type="text/javascript" src="./dk_files/vanilla-tilt.min.js.download" id="tilt-js"></script>
+<script type="text/javascript" src="./dk_files/regenerator-runtime.min.js.download" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="./dk_files/wp-polyfill.min.js.download" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="./dk_files/dom-ready.min.js.download" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="./dk_files/hooks.min.js.download" id="wp-hooks-js"></script>
+<script type="text/javascript" src="./dk_files/i18n.min.js.download" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type="text/javascript" src="./dk_files/a11y.min.js.download" id="wp-a11y-js"></script>
+<script type="text/javascript" defer="defer" src="./dk_files/jquery.json.min.js.download" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/www.fuelbankfoundation.org\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"Pound Sterling","symbol_left":"&#163;","symbol_right":"","symbol_padding":" ","thousand_separator":",","decimal_separator":".","decimals":2,"code":"GBP"},"base_url":"https:\/\/www.fuelbankfoundation.org\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.fuelbankfoundation.org\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="defer" src="./dk_files/gravityforms.min.js.download" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer="defer" src="./dk_files/api.js.download" id="gform_recaptcha-js"></script>
+<script type="text/javascript" defer="defer" src="./dk_files/placeholders.jquery.min.js.download" id="gform_placeholder-js"></script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [1, 1]) } );
+</script>
+  
+
+<p id="a11y-speak-intro-text" class="a11y-speak-intro-text" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" hidden="hidden">Notifications</p><div id="a11y-speak-assertive" class="a11y-speak-region" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" aria-live="assertive" aria-relevant="additions text" aria-atomic="true"></div><div id="a11y-speak-polite" class="a11y-speak-region" style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;" aria-live="polite" aria-relevant="additions text" aria-atomic="true"></div><div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div><div style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: absolute; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255); overflow: hidden;"><iframe title="recaptcha challenge expires in two minutes" src="./dk_files/bframe.html" name="c-dm0ziehljmk2" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

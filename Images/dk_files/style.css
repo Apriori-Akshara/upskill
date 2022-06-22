@@ -1,0 +1,25 @@
+/*
+Theme Name: Fuel Bank Foundation
+Theme URI: https://fuelbankfoundation.org/
+Author: Ashley Armstrong
+Author URI: https://plottcreative.co.uk
+Description: Fuel Bank Foundation theme, developed and designed by <a href="https://plottcreative.co.uk" target="_blank">PLOTT</a>
+Version: 1.0
+*/
+
+.subscribe-form__submit{
+	font-size: 0px !important;
+}
+
+.email-input{
+	position: relative;
+}
+
+#validation_message_1_1{
+	margin: 0;
+}
+
+.gform_validation_errors.validation_error > a{
+	color: white;
+	text-decoration: underline;
+}
