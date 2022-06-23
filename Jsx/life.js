@@ -39,7 +39,7 @@ lifes.map((item,index)=>(
     <div class="col-md-5 mt-4">
                 <div class="row at767cen ">
                 <div class="col  ">
-                <h1 class="pet c"
+                <h1 class="counter c"
                 style="font-weight:bolder;color:#0152a8 ; font-size:xx-larger;"
                 >${item.number}</h1>
                 <h1 class="sym c" style="font-weight:bolder;color:#0152a8 ; font-size:xx-larger;"
