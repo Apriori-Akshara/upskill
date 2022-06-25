@@ -1,6 +1,11 @@
 .pxt{
     width: 400px !important;
     margin: auto !important;
+    background-color: #0152a8 !important;
+    color: white !important;
+}
+.pxr:hover{
+    background-color: #067cfa !important;
 }
 .right{
     margin-left:180px !important ;
