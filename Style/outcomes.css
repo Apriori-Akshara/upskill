@@ -14,6 +14,12 @@
 .boxHW:hover{
     width: 300px;
 }
+#yolk7{
+    width: 260px !important;
+   
+    margin: 0 auto !important;
+}
+
 
 .positinSet{
     position: relative;

@@ -48,7 +48,7 @@ outcome.map((item,index)=>(
     dataX.innerHTML += `
     <div class="col-lg-4 col-md-5  parentPosition ">
     <div class="boxHW px-1"> 
-   
+   <div id='yolk7'>
        <div class="row text-center mt-5">
            <p class="childs mt-4">
                <b>${item.title1}</b>
@@ -60,7 +60,7 @@ outcome.map((item,index)=>(
        
        </p>
        </div>
-   
+   </div>
            </div>
            <div class="positinSet">
    <img src=${item.src} alt="profile" class="img-fluid profileHW">
