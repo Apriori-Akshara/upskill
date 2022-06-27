@@ -44,7 +44,7 @@ background-color: black !important;
 }
 .fix:active,.fix:hover{
 background-color:#067cfa !important;
-width: 100% !important;
+
 }
    
 .colwhite ul li a:hover:not(.fix){
