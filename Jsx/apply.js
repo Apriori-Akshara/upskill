@@ -146,7 +146,7 @@ else{
     console.log(keep);
     
     
-// location.href='thank.html';
+ location.href='thank.html';
 
 return true;
 } 

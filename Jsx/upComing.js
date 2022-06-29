@@ -207,3 +207,5 @@ function eventCall(items,itsd){
 //  function test1(){
 //     document.getElementById('dumyDatas').innerText=get1;
 //  }
+
+
