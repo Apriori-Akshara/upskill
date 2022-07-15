@@ -82,7 +82,7 @@ const courses=[
     {
         id:"2",
         src:"./Images/python.jpg",
-        btns:"WEB DEVLOPMENT",
+        btns:"WEB DEVELOPMENT",
         class1:"doClick1",
         title:"This course aims to provide an introduction to web development by starting from the basics of HTML and CSS. The course was created with appropriate projects to aid the students in becoming comfortable with using and exploring the different features of web development. ",
     },
