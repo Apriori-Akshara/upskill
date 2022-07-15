@@ -20,6 +20,57 @@ $( ".test" ).click(function() {
     $( ".used4" ).toggle( "slow" );
   });
 
+
+
+//   soft skill
+
+
+$( ".test00" ).click(function() {
+    $( ".used00" ).toggle( "slow" );
+  });
+
+
+  
+  $( ".test11" ).click(function() {
+    $( ".used11" ).toggle( "slow" );
+  });
+
+
+  
+$( ".testA" ).click(function() {
+    $( ".usedA" ).toggle( "slow" );
+  });
+
+
+  
+  $( ".testB" ).click(function() {
+    $( ".usedB" ).toggle( "slow" );
+  });
+
+  //   nn-tech
+
+
+$( ".testE" ).click(function() {
+    $( ".usedE" ).toggle( "slow" );
+  });
+
+
+  
+  $( ".testF" ).click(function() {
+    $( ".usedF" ).toggle( "slow" );
+  });
+
+
+  
+$( ".testG" ).click(function() {
+    $( ".usedG" ).toggle( "slow" );
+  });
+
+
+  
+ 
+
+
 const courses=[
     {
         id:"1",
@@ -93,6 +144,38 @@ function checkP3(){
 function checkP4(){
     document.getElementById('tired4').style.display=="block"
 }
+// soft skill
+//////////////////////////////////////////////////////// 
+function checkPA(){
+    document.getElementById('tiredA').style.display=="block"
+}
+function checkPB(){
+    document.getElementById('tiredB').style.display=="block"
+}
+function checkPC(){
+    document.getElementById('tiredC').style.display=="block"
+}
+function checkPD(){
+    document.getElementById('tiredD').style.display=="block"
+}
+//  ////////////////////////////////////////////////////////////
+
+
+// NON-TECH
+//////////////////////////////////////////////////////// 
+function checkPA(){
+    document.getElementById('tiredE').style.display=="block"
+}
+function checkPB(){
+    document.getElementById('tiredF').style.display=="block"
+}
+function checkPC(){
+    document.getElementById('tiredG').style.display=="block"
+}
+
+//  ////////////////////////////////////////////////////////////
+
+
 
 var vals= false;
 

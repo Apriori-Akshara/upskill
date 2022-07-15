@@ -32,6 +32,11 @@ background-color: white !important;
 #tired4{
     display: none;
 }
+
+#tiredA,#tiredB,#tiredC,#tiredD,#tiredE,#tiredF,#tiredG{
+    display: none;
+
+}
 .arrowHW{
     height: 20px !important;
     width: 20px !important;

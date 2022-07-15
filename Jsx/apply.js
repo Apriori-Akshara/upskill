@@ -78,7 +78,7 @@ else{
 
 var letter1 =/^[0-9]+$/;    
 
-if(phone.length<11){
+if(phone.length<10){
     document.getElementById('error2').style.display="block";
     document.getElementById('phonedata').style.borderColor="red";
     return false;
